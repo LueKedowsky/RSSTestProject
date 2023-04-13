@@ -1,0 +1,25 @@
+.search-input__ {
+  &container {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 2px;
+  }
+  &img {
+    width: 25px;
+    height: 25px;
+  }
+  &input {
+    background: transparent;
+    border: 0px;
+  }
+  &button>button {
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background: transparent;
+    padding-right: 5px;
+  }
+}
